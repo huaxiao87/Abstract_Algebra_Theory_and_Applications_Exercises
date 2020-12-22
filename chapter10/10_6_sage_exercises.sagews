@@ -91,7 +91,7 @@ for i in srange(len(C)):
 
 # Can you predict how many normal subgroups there are in the dihedral group D470448 without using Sage to build all the normal subgroups? Can you describe all of the normal subgroups of a dihedral group in a way that would let us predict all of the normal subgroups of D470448 without using Sage?
 
-print("Number of normal subgoups of Dihedral group 2*470448 is", len(divisors(470448)) + 3)
+print("Number of normal subgoups of Dihedral group 470448 is", len(divisors(470448)) + 3)
 
 for i in srange(3,101):
     print("\nn =",i)
